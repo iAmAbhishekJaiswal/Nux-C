@@ -7,7 +7,7 @@ Nux-C is a simple program for Linux platform specially for termux user, it help 
 Key-Features :
 1. Coded in Bash shell script Language
 2. Size : 1.91 kb only
-3. When user open it, automatically check for required Compiler Clang and tect editor nano, if not installed,guide you to install.
+3. When user open it, automatically check for required Compiler 'Clang' and text editor 'Nano', if not installed,guide you to install.
 4. User can create and compile in one place like IDE.
 5. It Compile and run simultaneously.
 6. It only store program file, delete compiled file automatically after run. It save your storage.

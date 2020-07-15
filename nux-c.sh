@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+#created by-Abhishek Jaiswal
 instal()
 {
 which $1 > /dev/null 2>&1

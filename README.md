@@ -1,4 +1,7 @@
 # Nux-C
+<img src="https://user-images.githubusercontent.com/67130803/87500397-eeebe180-c679-11ea-9c24-cb23cab5b8b0.jpg">
+
+
 Nux-C is a simple program for Linux platform specially for termux user, it help you to code in C language.
 
 Key-Features :

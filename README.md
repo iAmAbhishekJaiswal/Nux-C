@@ -1,5 +1,6 @@
 # Nux-C
-Nux-C is a simple program for Linux which help you to code in C language.
+Nux-C is a simple program for Linux platform specially for termux user, it help you to code in C language.
+
 Key-Features :
 1. Coded in Bash shell script Language
 2. Size : 1.91 kb only
@@ -15,4 +16,4 @@ How to Install (Android user) :
 2. git clone https://github.com/iAmAbhishekJaiswal/Nux-C
 3. cd Nux-C
 4. chmod +x nux-c.sh
-5. Now you can run, type- ./nux-c.sh
+5. Now you can run, type-' ./nux-c.sh' or 'bash nux-c.sh'

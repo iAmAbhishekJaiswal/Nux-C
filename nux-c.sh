@@ -69,6 +69,12 @@ fi
 2)read -p "Enter file name to edit : " file3
 if [ -f "$file3" ]; then
 nano $file3
+read -p  "Do you want to compile? (y-yes or n-No) : " ch3
+if [ "$ch3" == "y" ] ; then
+compil "$file3"
+else
+clear
+fi
 else
 echo -e " \n\n  \e[1;31mFile not found..\e[0m \n\n"
 fi
@@ -85,6 +91,7 @@ fi
 ;;
 
 4)
+clear
 ls
 ;;
 

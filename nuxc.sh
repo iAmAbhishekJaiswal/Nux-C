@@ -54,7 +54,7 @@ echo -e " 2. Edit exist C program"
 echo -e " 3. Compile and run a C program "
 echo -e " 4. List of program "
 echo -e " 5. Delete program "
-echo -e " 6. Advance Calculator(beta)
+echo -e " 6. Advance Calculator(beta) "
 echo -e " 7. Exit"
 read choice
 
@@ -110,9 +110,10 @@ fi
 ;;
 
 
-6)cd c_pro && clang main.c -o output
+6)cd advance_calculator && clang main.c -o output
 ./output
 rm output
+cd ..
 clear
 banner
 main

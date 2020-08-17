@@ -23,5 +23,5 @@ How to Install (Android user) :
 
 New Advanced Calculator is added which totally coded in C Programming Language.
 
-username : admin 
+username : admin and
 password : admin

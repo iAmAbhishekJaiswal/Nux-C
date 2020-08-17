@@ -20,3 +20,8 @@ How to Install (Android user) :
 3. cd Nux-C
 4. chmod +x nux-c.sh
 5. Now you can run, type-' ./nux-c.sh' or 'bash nux-c.sh'
+
+New Advanced Calculator is added which totally coded in C Programming Language.
+
+username : admin 
+password : admin

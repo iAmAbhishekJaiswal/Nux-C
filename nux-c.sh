@@ -36,12 +36,16 @@ instal "figlet"
 
 clear
 
+banner()
+{
 figlet -c -t -f  banner Nux-C
 echo -e "\e[1;31mCreated by\e[0m : Abhishek Jaiswal "
-echo -e "\e[1;31mYoutube \e[0m: Jamshedpur Cyber Technology"
-echo -e "\e[1;31mFacebook\e[0m : itsmeaj1"
+echo -e "\e[1;31mYoutube \e[0m: Jamshedpur Cyber Tech"
+echo -e "\e[1;31mFacebook\e[0m : Jamshedpur Cyber Tech"
 echo -e "\e[1;31mInstagram\e[0m : itsmeabhi01"
 printf %"$COLUMNS"s | tr " " "-"
+}
+banner
 main()
 {
 echo -e "\n\n\e[1;32mChoose option (1 for write program) : \n\e[0m"
@@ -50,7 +54,8 @@ echo -e " 2. Edit exist C program"
 echo -e " 3. Compile and run a C program "
 echo -e " 4. List of program "
 echo -e " 5. Delete program "
-echo -e " 6. Exit"
+echo -e " 6. Advance Calculator(beta)
+echo -e " 7. Exit"
 read choice
 
 case $choice in
@@ -104,7 +109,17 @@ echo -e " \n\n  \e[1;31mFile not found..\e[0m \n\n"
 fi
 ;;
 
-6)echo -e "\n\n \e[1;31mexiting.......\e[0m\n"
+
+6)cd c_pro && clang main.c -o output
+./output
+rm output
+clear
+banner
+main
+;;
+
+
+7)echo -e "\n\n \e[1;31mexiting.......\e[0m\n"
 exit 0
 ;;
 

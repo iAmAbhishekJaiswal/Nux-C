@@ -18,8 +18,8 @@ How to Install (Android user) :
 1. Open termux and type 'pkg install git'
 2. git clone https://github.com/iAmAbhishekJaiswal/Nux-C
 3. cd Nux-C
-4. chmod +x nux-c.sh
-5. Now you can run, type-' ./nux-c.sh' or 'bash nux-c.sh'
+4. chmod +x nuxc.sh
+5. Now you can run, type-' ./nuxc.sh' or 'bash nuxc.sh'
 
 New Advanced Calculator is added which totally coded in C Programming Language.
 

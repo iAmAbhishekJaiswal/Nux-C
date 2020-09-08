@@ -38,6 +38,7 @@ clear
 
 banner()
 {
+printf %"$COLUMNS"s | tr " " "-"
 figlet -c -t -f  banner Nux-C
 echo -e "\e[1;31mCreated by\e[0m : Abhishek Jaiswal "
 echo -e "\e[1;31mYoutube \e[0m: Jamshedpur Cyber Tech"
@@ -61,7 +62,7 @@ read choice
 case $choice in
 1)
 read -p "Enter file name (exp- xyz.c) : " file1
-nano $file1
+nano -m $file1
 echo -e "\n"
 read -p  "Do you want to compile? (y-yes or n-No) : " ch2
 if [ "$ch2" == "y" ] ; then
@@ -73,7 +74,7 @@ fi
 
 2)read -p "Enter file name to edit : " file3
 if [ -f "$file3" ]; then
-nano $file3
+nano -m $file3
 read -p  "Do you want to compile? (y-yes or n-No) : " ch3
 if [ "$ch3" == "y" ] ; then
 compil "$file3"

@@ -12,6 +12,7 @@ Key-Features :
 5. It Compile and run simultaneously.
 6. It only store program file, delete compiled file automatically after run. It save your storage.
 7. User can run C program smoothly in android.
+8. Mini Game like coin flip is added.
 
 How to Install (Android user) :
 
